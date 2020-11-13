@@ -17,7 +17,7 @@ If passed, this governance proposal would commit the Cosmos Hub to upgrading to 
 
 ------------
 
-In proposal 27, Iqlusion proposed a comprehensive process to translate the unprecented surface area of this upgrade. We called this process Stargate.
+In proposal 27, Iqlusion proposed a comprehensive process to translate the unprecedented surface area of this upgrade. We called this process Stargate.
 
 Iqlusion is pleased to report that the Stargate Process has been successfully executed. We believe the chevrons are unlocked and that Hub can safely step throught the Stargate.
 
@@ -91,7 +91,7 @@ This section is with the current `gaia 2.0.*` implementation.
 
   4. Validators should back up their `.gaiad` directory.
 
-This section is with the upgrade `gaia 3.0.*` implemenataion.
+This section is with the upgrade `gaia 3.0.*` implementation.
 
   1. Validators should then migrate the exported genesis state. `gaiad migrate cosmoshub-3-export.json --chain-id=cosmoshub-4 --initial-height [last_cosmoshub-3_block+1] > genesis.json`
   2. Validators should delete their `~/.gaiad` directory and create a new one with `gaiad init [name]` and then edit their configuration files.
@@ -121,8 +121,8 @@ We have also worked with the teams to double the bug bounty on the stargate upgr
 
 ------------
 
-There are multiple circumstances while the proposal should be abandoned even if it passes.34
+There are multiple circumstances where the proposal should be abandoned even if it passes. For example:
 
-1. A critical vulnerability may be found in the software. If the developement teams change their reccomended version of gaia, the validator set should implicitly abandon this upgrade procedure. A future proposal will be made to the Hub to upgrade to the new target commit.
+1. A critical vulnerability may be found in the software. If the developement teams change their recommended version of gaia, the validator set should implicitly abandon this upgrade procedure. A future proposal will be made to the Hub to upgrade to the new target commit.
 
-2. The migration process fails could fail to produce a valid cosmoshub-4 genesis file. In this case, the validator set should restart cosmoshub-3 and a future governance proposal will be done to initiate another upgrade.
+2. The migration process fails to produce a valid cosmoshub-4 genesis file. In this case, the validator set should restart cosmoshub-3 and a future governance proposal will be done to initiate another upgrade.
