@@ -25,12 +25,7 @@ The `deposit 512000000 uatom` results in 512 ATOM being used from the proposal s
       "amount": "1000000"
     }
   ],
-  "deposit": [
-    {
-      "denom": "uatom",
-      "amount": "512000000"
-    }
-  ]
+  "deposit":"512000000uatom"
 }
 
 ```
@@ -55,11 +50,6 @@ You use can also use [Hubble](https://hubble.figment.network/cosmos/chains/cosmo
       "amount": "5250000000"
     }
   ],
-  "deposit": [
-    {
-      "denom": "uatom",
-      "amount": "12000000"
-    }
-  ]
+  "deposit": "12000000uatom"
 }
 ```

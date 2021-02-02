@@ -8,10 +8,5 @@
       "amount": "5250000000"
     }
   ],
-  "deposit": [
-    {
-      "denom": "uatom",
-      "amount": "12000000"
-    }
-  ]
+  "deposit": "12000000uatom"
 }
